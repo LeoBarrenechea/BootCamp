@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio If Else</title>
+</head>
+
+<body>
+    <script>
+        let age = parseInt(prompt("¿que edad tienes?"));
+        if (age < 18)
+        {
+            console.log("eres menor de edad");
+        }
+        else
+        {
+            console.log("eres mayor de edad");
+        }
+        let correct;
+        let aswer;
+
+        correct = 5;
+        aswer = parseInt(prompt("adivina el numero entre 1 y 10"));
+        if (aswer == correct)
+        {
+            console.log("has acertado");
+        }
+        else
+        {
+            console.log("intentato de nuevo");
+            aswer = parseInt(prompt("adivina el numero entre 1 y 10"));
+            if (aswer == correct)
+            {
+                console.log("has acertado");
+            }
+            else
+            {
+                console.log("intentalo de nuevo");
+                aswer = parseInt(prompt("adivina el numero entre 1 y 10"));
+                if (aswer == correct)
+                {
+                    console.log("has acertado");
+                }
+                else
+                {
+                    console.log("no es correcto");
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

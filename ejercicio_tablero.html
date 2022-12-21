@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tablero</title>
+</head>
+<body>
+    <script>
+        let num;
+        let board = "";
+        num = parseInt(prompt("introduce un numero "));
+        for (let i = 1; i <= num; i = i + 1)
+        {
+
+            for (let j = 1; j <= num; j = j + 1)
+            {
+                if ((i+j) % 2 == 0)
+                {
+                    board = board + ("X");
+                }
+                else
+                {
+                    board = board + ("O");
+                }
+            }
+            board = board + ("\n");
+        }
+        console.log(board);
+    </script>
+</body>
+</html>

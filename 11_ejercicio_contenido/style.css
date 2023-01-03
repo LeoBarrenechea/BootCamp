@@ -1,0 +1,26 @@
+#intro{
+    display: flex;
+    background-color:salmon;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.intros{
+    background-color: black;
+    border-radius: 16px;
+    padding: 0 8vh;
+    margin: 2vh 1vh 2vh 1vh;;
+    color: salmon;
+}
+
+#column{
+    padding: 4vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+}

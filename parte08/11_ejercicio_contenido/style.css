@@ -1,0 +1,47 @@
+#intro{
+    display:flex;
+    background-color:salmon;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+
+.intros{
+    background-color: black;
+    border-radius: 16px;
+    padding: 0 8vh;
+    margin: 2vh 1vh 2vh 1vh;;
+    color: salmon;
+}
+
+#columns{
+    display: flex;
+}
+
+#column{
+    padding: 5vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+#notice{
+    display:flex;
+    background-color:aquamarine;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+}
+
+.news{
+    background-color: black;
+    border-radius: 16px;
+    padding: 0 8vh;
+    margin: 2vh 1vh 2vh 1vh;;
+    color: aquamarine;
+}

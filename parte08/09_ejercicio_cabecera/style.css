@@ -1,0 +1,29 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 10vh 4vh 10vh;
+    background-color: darkcyan;
+    color: black;
+}
+
+#title{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#subtitle{
+    text-align: right;
+}
+
+#list{
+    list-style-type: none;
+    display: flex;
+    color: black;
+}
+
+li{
+    margin: 0 1vh 0 1vh;
+    padding: 0 2vh 0 2vh;
+    color: black;
+}
